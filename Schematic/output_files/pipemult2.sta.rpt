@@ -1,5 +1,5 @@
 Timing Analyzer report for pipemult2
-Fri Jul 02 08:06:45 2021
+Sat Jul 03 11:18:07 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -89,14 +89,13 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.06        ;
+; Average used               ; 1.07        ;
 ; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   1.1%      ;
-;     Processor 3            ;   1.1%      ;
-;     Processors 4-6         ;   1.1%      ;
+;     Processor 2            ;   1.3%      ;
+;     Processors 3-6         ;   1.3%      ;
 +----------------------------+-------------+
 
 
@@ -105,7 +104,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; pipemult2.sdc ; OK     ; Fri Jul 02 08:06:44 2021 ;
+; pipemult2.sdc ; OK     ; Sat Jul 03 11:18:05 2021 ;
 +---------------+--------+--------------------------+
 
 
@@ -503,7 +502,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Jul 02 08:06:43 2021
+    Info: Processing started: Sat Jul 03 11:18:05 2021
 Info: Command: quartus_sta pipemult -c pipemult2
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -574,8 +573,8 @@ Info (332146): Worst-case minimum pulse width slack is 4.408
 Info (332101): Design is fully constrained for setup requirements
 Info (332101): Design is fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4805 megabytes
-    Info: Processing ended: Fri Jul 02 08:06:45 2021
+    Info: Peak virtual memory: 4806 megabytes
+    Info: Processing ended: Sat Jul 03 11:18:07 2021
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
