@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemultArchive.qarlog
+
+Archive:	D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemultArchive.qar
+Date:		Fri Jul 02 08:11:26 2021
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/mult.bsf
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/mult.cmp
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/mult.qip
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/mult.vhd
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemult.bdf
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemult.qpf
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemult.qsf
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemult.sdc
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemult2.qsf
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/pipemult2.sdc
+D:/Applications/Quartus/ECEA5360/Downloads/FPGA-C1 Project Zip Files/pipemultQP16_1/pipemultQP16_1/Schematic/ram.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
