@@ -1,5 +1,5 @@
 Power Analyzer report for pipemult2
-Sat Jul 03 11:18:04 2021
+Sun Jul 04 10:41:26 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -52,29 +52,29 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.06        ;
+; Average used               ; 1.07        ;
 ; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   1.2%      ;
+;     Processors 2-6         ;   1.4%      ;
 +----------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------+
 ; Power Analyzer Summary                                                                    ;
 +----------------------------------------+--------------------------------------------------+
-; Power Analyzer Status                  ; Successful - Sat Jul 03 11:18:04 2021            ;
+; Power Analyzer Status                  ; Successful - Sun Jul 04 10:41:26 2021            ;
 ; Quartus Prime Version                  ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition      ;
 ; Revision Name                          ; pipemult2                                        ;
 ; Top-level Entity Name                  ; pipemult                                         ;
 ; Family                                 ; MAX 10                                           ;
 ; Device                                 ; 10M08DAF484C8GES                                 ;
 ; Power Models                           ; Final                                            ;
-; Total Thermal Power Dissipation        ; 53.40 mW                                         ;
+; Total Thermal Power Dissipation        ; 82.73 mW                                         ;
 ; Core Dynamic Thermal Power Dissipation ; 3.77 mW                                          ;
-; Core Static Thermal Power Dissipation  ; 39.77 mW                                         ;
-; I/O Thermal Power Dissipation          ; 9.86 mW                                          ;
+; Core Static Thermal Power Dissipation  ; 63.47 mW                                         ;
+; I/O Thermal Power Dissipation          ; 15.48 mW                                         ;
 ; Power Estimation Confidence            ; Low: user provided insufficient toggle rate data ;
 +----------------------------------------+--------------------------------------------------+
 
@@ -87,16 +87,16 @@ https://fpgasoftware.intel.com/eula.
 ; Use smart compilation                                            ; Off                                   ; Off           ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                                    ; On            ;
 ; Enable compact report table                                      ; Off                                   ; Off           ;
-; Default Power Input I/O Toggle Rate                              ; 12.5%                                 ; 12.5%         ;
+; Device Power Characteristics                                     ; MAXIMUM                               ; TYPICAL       ;
 ; Preset Cooling Solution                                          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ;               ;
 ; Board thermal model                                              ; None (CONSERVATIVE)                   ;               ;
 ; Default Power Toggle Rate                                        ; 12.5%                                 ; 12.5%         ;
+; Default Power Input I/O Toggle Rate                              ; 12.5%                                 ; 12.5%         ;
 ; Use vectorless estimation                                        ; On                                    ; On            ;
 ; Use Input Files                                                  ; Off                                   ; Off           ;
 ; Filter Glitches in VCD File Reader                               ; On                                    ; On            ;
 ; Power Analyzer Report Signal Activity                            ; Off                                   ; Off           ;
 ; Power Analyzer Report Power Dissipation                          ; Off                                   ; Off           ;
-; Device Power Characteristics                                     ; TYPICAL                               ; TYPICAL       ;
 ; Automatically Compute Junction Temperature                       ; On                                    ; On            ;
 ; Specified Junction Temperature                                   ; 25                                    ; 25            ;
 ; Ambient Temperature                                              ; 25                                    ; 25            ;
@@ -110,7 +110,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+----------------------------+
 ; Setting                                     ; Value                      ;
 +---------------------------------------------+----------------------------+
-; Device power characteristics                ; Typical                    ;
+; Device power characteristics                ; Maximum                    ;
 ;                                             ;                            ;
 ; Voltages                                    ;                            ;
 ;     VCC                                     ; 1.20 V                     ;
@@ -121,7 +121,7 @@ https://fpgasoftware.intel.com/eula.
 ;     2.5 V I/O Standard                      ; 2.5 V                      ;
 ;     2.5 V Schmitt Trigger I/O Standard      ; 2.5 V                      ;
 ;                                             ;                            ;
-; Auto computed junction temperature          ; 25.8 degrees Celsius       ;
+; Auto computed junction temperature          ; 26.2 degrees Celsius       ;
 ;     Ambient temperature                     ; 25.0 degrees Celsius       ;
 ;     Junction-to-Case thermal resistance     ; 11.20 degrees Celsius/Watt ;
 ;     Case-to-Heat Sink thermal resistance    ; 0.10 degrees Celsius/Watt  ;
@@ -190,11 +190,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 ; Voltage Supply ; Total Current Drawn (1) ; Dynamic Current Drawn (1) ; Static Current Drawn (1) ; Minimum Power Supply Current (2) ;
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
-; VCC            ; 8.22 mA                 ; 4.24 mA                   ; 3.98 mA                  ; 8.22 mA                          ;
-; VCCIO          ; 3.42 mA                 ; 1.04 mA                   ; 2.38 mA                  ; 3.42 mA                          ;
-; VCCA           ; 11.99 mA                ; 0.00 mA                   ; 11.99 mA                 ; 11.99 mA                         ;
-; VCCD_PLL       ; 4.10 mA                 ; 0.00 mA                   ; 4.10 mA                  ; 4.10 mA                          ;
-; VCCINT         ; 0.08 mA                 ; 0.00 mA                   ; 0.08 mA                  ; 0.08 mA                          ;
+; VCC            ; 11.93 mA                ; 4.24 mA                   ; 7.69 mA                  ; 11.93 mA                         ;
+; VCCIO          ; 5.67 mA                 ; 1.04 mA                   ; 4.62 mA                  ; 5.67 mA                          ;
+; VCCA           ; 20.99 mA                ; 0.00 mA                   ; 20.99 mA                 ; 20.99 mA                         ;
+; VCCD_PLL       ; 7.81 mA                 ; 0.00 mA                   ; 7.81 mA                  ; 7.81 mA                          ;
+; VCCINT         ; 0.15 mA                 ; 0.00 mA                   ; 0.15 mA                  ; 0.15 mA                          ;
 ; VCCA_ADC       ; 0.00 mA                 ; 0.00 mA                   ; 0.00 mA                  ; 0.00 mA                          ;
 +----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 (1) Currents reported in columns "Total Current Drawn", "Dynamic Current Drawn", and "Static Current Drawn" are sufficient for user operation of the device.  
@@ -206,15 +206,15 @@ https://fpgasoftware.intel.com/eula.
 +----------+---------------+---------------------+-----------------------+----------------------+
 ; I/O Bank ; VCCIO Voltage ; Total Current Drawn ; Dynamic Current Drawn ; Static Current Drawn ;
 +----------+---------------+---------------------+-----------------------+----------------------+
-; 1A       ; 2.5V          ; 0.25 mA             ; 0.00 mA               ; 0.25 mA              ;
-; 1B       ; 2.5V          ; 0.26 mA             ; 0.00 mA               ; 0.26 mA              ;
-; 2        ; 2.5V          ; 0.35 mA             ; 0.10 mA               ; 0.25 mA              ;
-; 3        ; 2.5V          ; 0.31 mA             ; 0.04 mA               ; 0.27 mA              ;
-; 4        ; 2.5V          ; 0.97 mA             ; 0.66 mA               ; 0.31 mA              ;
-; 5        ; 2.5V          ; 0.52 mA             ; 0.24 mA               ; 0.28 mA              ;
-; 6        ; 2.5V          ; 0.25 mA             ; 0.00 mA               ; 0.25 mA              ;
-; 7        ; 2.5V          ; 0.25 mA             ; 0.00 mA               ; 0.25 mA              ;
-; 8        ; 2.5V          ; 0.26 mA             ; 0.00 mA               ; 0.26 mA              ;
+; 1A       ; 2.5V          ; 0.50 mA             ; 0.00 mA               ; 0.50 mA              ;
+; 1B       ; 2.5V          ; 0.51 mA             ; 0.00 mA               ; 0.51 mA              ;
+; 2        ; 2.5V          ; 0.60 mA             ; 0.10 mA               ; 0.50 mA              ;
+; 3        ; 2.5V          ; 0.56 mA             ; 0.04 mA               ; 0.52 mA              ;
+; 4        ; 2.5V          ; 1.22 mA             ; 0.66 mA               ; 0.56 mA              ;
+; 5        ; 2.5V          ; 0.77 mA             ; 0.24 mA               ; 0.53 mA              ;
+; 6        ; 2.5V          ; 0.50 mA             ; 0.00 mA               ; 0.50 mA              ;
+; 7        ; 2.5V          ; 0.50 mA             ; 0.00 mA               ; 0.50 mA              ;
+; 8        ; 2.5V          ; 0.51 mA             ; 0.00 mA               ; 0.51 mA              ;
 +----------+---------------+---------------------+-----------------------+----------------------+
 
 
@@ -223,7 +223,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 ; VCCIO Voltage ; Total Current Drawn (1) ; Dynamic Current Drawn (1) ; Static Current Drawn (1) ; Minimum Power Supply Current (2) ;
 +---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
-; 2.5V          ; 3.42 mA                 ; 1.04 mA                   ; 2.38 mA                  ; 3.42 mA                          ;
+; 2.5V          ; 5.67 mA                 ; 1.04 mA                   ; 4.62 mA                  ; 5.67 mA                          ;
 +---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
 (1) Currents reported in columns "Total Current Drawn", "Dynamic Current Drawn", and "Static Current Drawn" are sufficient for user operation of the device.  
 (2) Currents reported in column "Minimum Power Supply Current" are sufficient for power-up, configuration, and user operation of the device.
@@ -270,8 +270,8 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Power Analyzer
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Jul 03 11:18:02 2021
-Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off pipemult -c pipemult2
+    Info: Processing started: Sun Jul 04 10:41:24 2021
+Info: Command: quartus_pow --read_settings_files=on --write_settings_files=off pipemult -c pipemult2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -285,10 +285,10 @@ Info (334003): Started post-fitting delay annotation
 Warning (334000): Timing characteristics of device 10M08DAF484C8GES are preliminary
 Info (334004): Delay annotation completed successfully
 Info (215049): Average toggle rate for this design is 21.250 millions of transitions / sec
-Info (215031): Total thermal power estimate for the design is 53.40 mW
+Info (215031): Total thermal power estimate for the design is 82.73 mW
 Info: Quartus Prime Power Analyzer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Sat Jul 03 11:18:04 2021
+    Info: Peak virtual memory: 4854 megabytes
+    Info: Processing ended: Sun Jul 04 10:41:26 2021
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
