@@ -1,5 +1,5 @@
 Analysis & Synthesis report for pipemult2
-Sat Jul 03 11:17:49 2021
+Sun Jul 04 13:33:25 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -52,7 +52,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jul 03 11:17:49 2021       ;
+; Analysis & Synthesis Status        ; Successful - Sun Jul 04 13:33:25 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; pipemult2                                   ;
 ; Top-level Entity Name              ; pipemult                                    ;
@@ -477,7 +477,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -487,7 +487,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sat Jul 03 11:17:40 2021
+    Info: Processing started: Sun Jul 04 13:33:17 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off pipemult -c pipemult2
 Info (16303): Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -555,8 +555,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
 Info (286030): Timing-Driven Synthesis is running
 Info (128000): Starting physical synthesis optimizations for speed
 Info (332104): Reading SDC File: 'pipemult2.sdc'
-Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
-Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Warning (332061): Virtual clock vir_clock is never referenced in any input or output delay assignment.
 Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
 Info (332111): Found 2 clocks
     Info (332111):   Period   Clock Name
@@ -576,10 +575,10 @@ Info (21057): Implemented 82 device resources after synthesis - the final resour
     Info (21061): Implemented 21 logic cells
     Info (21064): Implemented 16 RAM segments
     Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4867 megabytes
-    Info: Processing ended: Sat Jul 03 11:17:49 2021
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:20
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4864 megabytes
+    Info: Processing ended: Sun Jul 04 13:33:25 2021
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:17
 
 

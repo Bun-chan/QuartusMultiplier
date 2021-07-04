@@ -74,7 +74,6 @@ instance = comp, \rdaddress[0]~input\, rdaddress[0]~input, pipemult, 1
 instance = comp, \inst1|rdaddress_reg[0]~feeder\, inst1|rdaddress_reg[0]~feeder, pipemult, 1
 instance = comp, \inst1|rdaddress_reg[0]\, inst1|rdaddress_reg[0], pipemult, 1
 instance = comp, \rdaddress[1]~input\, rdaddress[1]~input, pipemult, 1
-instance = comp, \inst1|rdaddress_reg[1]~feeder\, inst1|rdaddress_reg[1]~feeder, pipemult, 1
 instance = comp, \inst1|rdaddress_reg[1]\, inst1|rdaddress_reg[1], pipemult, 1
 instance = comp, \rdaddress[2]~input\, rdaddress[2]~input, pipemult, 1
 instance = comp, \inst1|rdaddress_reg[2]~feeder\, inst1|rdaddress_reg[2]~feeder, pipemult, 1
