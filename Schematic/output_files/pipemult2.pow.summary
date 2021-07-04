@@ -1,12 +1,12 @@
-Power Analyzer Status : Successful - Fri Jul 02 08:06:42 2021
+Power Analyzer Status : Successful - Sun Jul 04 10:41:26 2021
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : pipemult2
 Top-level Entity Name : pipemult
 Family : MAX 10
 Device : 10M08DAF484C8GES
 Power Models : Final
-Total Thermal Power Dissipation : 53.40 mW
+Total Thermal Power Dissipation : 82.73 mW
 Core Dynamic Thermal Power Dissipation : 3.77 mW
-Core Static Thermal Power Dissipation : 39.77 mW
-I/O Thermal Power Dissipation : 9.86 mW
+Core Static Thermal Power Dissipation : 63.47 mW
+I/O Thermal Power Dissipation : 15.48 mW
 Power Estimation Confidence : Low: user provided insufficient toggle rate data
